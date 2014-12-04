@@ -84,3 +84,22 @@ a:hover {
     margin-bottom: 1em;
   }
 }
+
+.lt-ie9 .col-big{
+  width: 70%;
+  float: left;
+}
+.it-ie9 aside{
+  width: 25%;
+  float: left;
+}
+
+.no-cssgradients aside {
+  background: green;
+}
+
+img {
+  -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
